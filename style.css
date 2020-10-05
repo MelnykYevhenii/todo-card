@@ -1,0 +1,148 @@
+body {
+    background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
+.wrapper{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top1:hover{
+    color: #ffffff !important;
+}
+.main-card{
+    width: 700px;
+    height: 410px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px darkgray;
+    border-radius: 0 0 20px 20px;
+}
+.header-card{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #4876b2;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.header-card-2 p {
+    margin: 0;
+    font-size: 24px;
+    position: relative;
+    color: #ffffff;
+}
+.header-card-3{
+    /*padding-right: 5px;*/
+    /*width: 50px;*/
+}
+.header-card-3 i{
+    padding-right: 5px;
+}
+
+.add-search-block{
+    height: 50px;
+    background-color: #d1d1d1;
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.add-button{
+    width: 10%;
+}
+.search-block{
+    width: 90%;
+}
+#search{
+    width: 100%;
+    height: 30px;
+}
+/*.add-task-btn{*/
+/*    width: 25%;*/
+/*}*/
+input{
+    border: 0;
+}
+input:active, input:focus {
+    outline: none;
+}
+input::-moz-focus-inner {
+    border: 0;
+}
+button{
+    width: max-content;
+    height: 30px;
+    border-color: #6ea689;
+    background-color: #6ea689;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+button:active, button:focus {
+    outline: none;
+}
+button::-moz-focus-inner {
+    border: 0;
+}
+.fa-plus{
+    color: green;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr{
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+}
+
+td .fa{
+    font-size: 15px;
+}
+td:first-child{
+    width: 13%;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+td:last-child{
+    width: 13%;
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.my{
+    border-right: 1px solid silver;
+    width: 15px;
+    padding-right: 2px;
+}
+.my2{
+    /*width: 30px;*/
+    margin-right: 20%;
+}
+.task-block{
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
+    overflow-y:scroll;
+    background-color: white;
+    height: 290px;
+}
+tr:hover{
+    background-color: #fcfed6;
+}
+.td-icons{
+    /*display: none;*/
+}
+.td-icons:hover{
+    /*display: block;*/
+}
+.task-text{
+    padding-left: 5%;
+    text-align: left;
+    border-bottom: 1px solid silver;
+}
+::-webkit-scrollbar-track {
+    background: rgb(0,0,0);
+    border: 4px solid transparent;
+    background-clip: content-box;   /* THIS IS IMPORTANT */
+}
